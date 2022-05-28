@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Database Manipulation</string>
+    <string name="firebaseBttnText">GO TO FIREBASE RECORDS</string>
+    <string name="sqlBttnText">GO TO SQL RECORDS</string>
+    <string name="weatherBttnText">GO TO WEATHER SETTINGS</string>
+    <string name="firebaseText">FIREBASE</string>
+    <string name="sqlText">SQL</string>
+    <string name="weatherText">WEATHER</string>
+    <string name="studentIDText">Student ID: </string>
+    <string name="nameText">Student Name: </string>
+    <string name="surnameText">Student Surname: </string>
+    <string name="fathersNameText">Student Father\'s Name: </string>
+    <string name="nationalIDText">National ID: </string>
+    <string name="dobText">Date of Birth: </string>
+    <string name="genderText">Gender: </string>
+    <string name="addTxt">ADD</string>
+    <string name="updateTxt">UPDATE</string>
+    <string name="updatable">Can be updated...</string>
+    <string name="deleteTxt">DELETE</string>
+    <string name="toSqlTxt">INSERT INTO SQL</string>
+    <string name="viewAllTxt">VIEW ALL RECORDS</string>
+    <string name="viewTxt">RETRIEVE RECORD</string>
+    <string name="weatherTitle">Weather Settings</string>
+    <string name="hintWeather">Enter new city, country</string>
+    <string name="weatherBttn">Change Weather</string>
+    <string name="tempText">Temp: XXC</string>
+    <string name="humidText">Humidity: XX.XX</string>
+    <string name="conditionTxt">Condition: XXXX</string>
+    <string-array name="days">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="years">
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2003</item>
+        <item>2004</item>
+    </string-array>
+</resources>

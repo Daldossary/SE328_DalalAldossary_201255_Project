@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirebaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tempTxtFirebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tempText" />
+
+        <TextView
+            android:id="@+id/humidTextFirebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/humidText" />
+
+        <TextView
+            android:id="@+id/conditionTextFirebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conditionTxt" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/firebase" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/studentIDText"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:text="@string/studentIDText"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <EditText
+            android:id="@+id/editStudentID"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="31dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="145dp"
+            android:layout_height="31dp"
+            android:text="@string/nameText"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/updatable"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="92dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fathersNameTxt"
+            android:layout_width="145dp"
+            android:layout_height="31dp"
+            android:text="@string/fathersNameText"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editFathersName"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/updatable"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="165dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/surnameTxt"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:text="@string/surnameText"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+        <EditText
+            android:id="@+id/editSurname"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/updatable"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="239dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nationalIDText"
+            android:layout_width="145dp"
+            android:layout_height="34dp"
+            android:text="@string/nationalIDText"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <EditText
+            android:id="@+id/editNationalID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/genderTxt"
+            android:layout_width="146dp"
+            android:layout_height="33dp"
+            android:text="@string/genderText"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="180dp" />
+
+        <EditText
+            android:id="@+id/editGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dobTxt"
+            android:layout_width="107dp"
+            android:layout_height="32dp"
+            android:text="@string/dobText"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <Spinner
+            android:id="@+id/daysSelect"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:entries="@array/days" />
+
+        <Spinner
+            android:id="@+id/monthsSelect"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:entries="@array/months" />
+
+        <Spinner
+            android:id="@+id/yearsSelect"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:entries="@array/years" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addFirebaseBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/addTxt" />
+
+        <Button
+            android:id="@+id/updateFirebaseBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/updateTxt" />
+
+        <Button
+            android:id="@+id/deleteFirebaseBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/deleteTxt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/oneRecordBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/viewTxt" />
+
+        <Button
+            android:id="@+id/toSqlBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/toSqlTxt" />
+
+        <Button
+            android:id="@+id/viewAllBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/viewAllTxt" />
+    </LinearLayout>
+
+</LinearLayout>
